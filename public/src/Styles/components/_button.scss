@@ -1,0 +1,44 @@
+.big-button{
+    background: $button-purple;
+    border: none;
+    border-bottom: .6rem solid darken($button-purple, 10%);
+    color: white;
+    font-weight: bold;
+    font-size: $large;
+    width: 100%;
+    padding: 2.4rem;
+    margin-bottom: $xlarge;
+}
+
+.big-button:disabled{
+    opacity: .5
+}
+
+.button{
+    background: $button-purple;
+    border: none;
+    border-bottom: .3rem solid darken($button-purple, 10%);
+    color: white;
+    font-weight: bold;
+    padding: $smol;
+}
+
+.button:disabled{
+    opacity: .5;
+}
+
+.button--remove{
+    background: none;
+    border: none;
+    color: $light-purp;
+    padding: 0;
+}
+
+.removeb{
+    background: yellow;
+    color: green;
+    font-weight: bold;
+    border: none;
+    border-bottom: .3rem solid darken(yellow, 10%);
+    padding: $smol;
+}

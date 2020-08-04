@@ -1,0 +1,19 @@
+.header{
+    background: $light-black;
+    color: white;
+    margin-bottom: $xlarge;
+    padding: $medium 0;
+    
+}
+
+.header__title{
+    font-size: $large;
+    margin: 0;
+}
+
+.header__subtitle{
+    color: $light-purp;
+    font-size: $medium;
+    font-weight: 500;
+    margin: 0;
+}
